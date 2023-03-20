@@ -1,0 +1,35 @@
+.App {
+  padding:100px 60px;
+}
+
+a { text-decoration: none !important; }
+
+.performance .ant-card {
+  transition:all 200ms;
+}
+
+.hidden {
+  display:none;
+}
+
+.performance .ant-card:hover, .performance .ant-card.active {
+  color:#4096ff;
+  border-color:#4096ff;
+  transition:all 200ms;
+}
+
+.card-with-table .ant-card-body {
+  padding:0 !important;
+}
+
+.card-with-table .ant-table-cell {
+  border-radius:0 !important;
+}
+
+.card-with-table .ant-table-cell:first-child {
+  padding-left:24px !important;
+}
+
+.chart-table .ant-card-body {
+  padding:80px 24px;
+}
